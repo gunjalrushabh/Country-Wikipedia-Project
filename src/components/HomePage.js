@@ -27,11 +27,11 @@ export default function HomePage() {
                     placeholder='Enter Country Name' 
                     onChange={handleSearch}
                     value={searchCountry}/>
-            <div>
+            <div style={{padding:"10px"}}>
                 {
                    filterCountries && filterCountries.map(records => {
                         return (
-                            <div className='parent' key={records.id}>
+                            <div className='parent' key={records.id} style={{margin:"15px"}}>
                                 <div className="card py-3 shadow px-3 py-3 mt-2">
                                     <Link to={`/country/${records.name}`}>
                                     <img src={records.flag} className="card-img-top" alt="..."  />
