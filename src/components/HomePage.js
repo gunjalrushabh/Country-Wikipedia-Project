@@ -20,7 +20,7 @@ export default function HomePage() {
   });
   return (
     <div>
-        <></h2>
+        <h2>Project Created by Rushabh Gunjal</h2>
       <h2>This is Country Wikipedia Web</h2>
       <em>Search Country Here ✌🏻 piece </em>
       <input
